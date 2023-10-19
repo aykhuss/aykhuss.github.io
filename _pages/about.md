@@ -9,9 +9,9 @@ profile:
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>4/2-026, TH department</p>
-    <p>CERN, 1211 Geneva 23</p>
-    <p>Switzerland</p>
+    <p>4/2-026</p>
+    <p>CERN, TH department</p>
+    <p>CH-1211 Geneva 23</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
