@@ -5,13 +5,17 @@ permalink: /
 subtitle: Theoretical physicist at <a href='https://home.cern/'>CERN</a>.
 
 profile:
-  align: left
+  align: right
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>4/2-026</p>
-    <p>CERN, TH department</p>
+    <p>CERN TH</p>
     <p>CH-1211 Geneva 23</p>
+    <p>Switzerland</p>
+    <p></p>
+    <p>building: 4</p>
+    <p>office: 4/2-026</p>
+    <p>phone: +41 22 76 72420</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
