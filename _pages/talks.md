@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description: Materials for courses I taught.
+permalink: /talks/
+title: talks
+description: Selected talks.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 ## course title 1 (09/2020)
