@@ -7,22 +7,19 @@ nav: true
 nav_order: 4
 ---
 
-## Teaching
-
-### course title 1 (2020)
+## course title 1 (09/2020)
 more information
 
-### course title 2
+## course title 2
 more information
 
 ## Outreach
-better to use a list?
+
+### outreach 1
+
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>li 1</li>
+  <li>li 2</li>
+  <li>li 3</li>
 </ul>
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
