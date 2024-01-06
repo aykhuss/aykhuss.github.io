@@ -12,7 +12,7 @@ profile:
     <p>CERN TH</p>
     <p>CH-1211 Geneva 23</p>
     <p>Switzerland</p>
-    <p></p>
+    <br />
     <p>building: 4</p>
     <p>office: 4/2-026</p>
     <p>phone: +41 22 76 72420</p>
