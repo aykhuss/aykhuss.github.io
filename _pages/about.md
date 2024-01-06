@@ -16,7 +16,7 @@ profile:
     <p><i class="fa-solid fa-building"></i> bldg: 4</p>
     <p><i class="fa-solid fa-door-open"></i> room: 4/2-026</p>
     <p><i class="fa-solid fa-phone"></i> +41 22 76 72420</p>
-    <p><i class="fa-solid fa-envelope"></i> <a href='mailto:alexander.huss@cern.ch'>alexander.huss@cern.ch</a></p>
+    <p><i class="fa-solid fa-envelope"></i> <a href='mailto:alexander.huss@cern.ch' style="font-size:0.75rem;">alexander.huss@cern.ch</a></p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
