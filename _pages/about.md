@@ -5,7 +5,7 @@ permalink: /
 subtitle: Theoretical physicist at <a href='https://home.cern/'>CERN</a>.
 
 profile:
-  align: right
+  align: left
   image: profile.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
@@ -15,14 +15,16 @@ profile:
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a theoretical physicist studying the elementary particles and the fundamental interactions of Nature that govern them.
+My main research resides in the intersection between theory and experiment, known as particle *phenomenology*.  It revolves around making /very precise/ predictions from theory and confronting it with the immense data collected at collider experiments, such as the Large Hadron Collider (LHC) at CERN. 
+This way, we hope to uncover even subtle hits on what are the elementary constituents and Nature's laws at these highest energies and smallest distances.
+I'm particularly interested in applications of modern computational methods and analytical techniques to aid our understanding of these questions.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm currently a Limited Duration (LD) Research Staff member of the theory (TH) department at CERN.
+Previously, I held a lecturer position at the Institute for Particle Physics Phenomenology (IPPP) at Durham University.
 
 

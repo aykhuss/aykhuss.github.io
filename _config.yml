@@ -8,12 +8,12 @@ middle_name: 洋平
 last_name: Huß
 email: alexander.huss@cern.ch
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A theoretical physicist, working on elementary particle physics.
+  Theoretical physicist at CERN.
 footer_text:
 keywords: hep, physics, particle physics, phenomenology, elementary particles, cern
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ◎  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ◎ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://aykhuss.github.io # the base hostname & protocol for your site
 baseurl:
