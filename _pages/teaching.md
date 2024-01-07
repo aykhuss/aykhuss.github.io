@@ -45,9 +45,16 @@ MITP School 2021: The Amplitude Games, Mainz, Germany.
 
 #### outreach 1
 
-<ul>
-  <li>li 1</li>
-  <li>li 2</li>
-  <li>li 3</li>
-</ul>
-
+<h2 class="bibliography">’23</h2>
+<ol class="bibliography"> 
+  <li> 
+    <div class="row"> 
+      <div class="title">“Von Lagrangedichten zu Feynman Diagrammen”</div> 
+      <div class="author">Forschung trifft Schule: CERN Summer School, CERN, Switzerland.</div> 
+      <div class="periodical"> <em>asdf</em>, asdf </div> 
+      <div class="links">
+        <a href='https://indico.cern.ch/event/1233143/timetable/'><i class="fa-solid fa-link"></i> link</a> 
+      </div> 
+    </div> 
+  </li> 
+</ol>
