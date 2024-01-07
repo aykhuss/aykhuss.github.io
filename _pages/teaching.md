@@ -7,9 +7,18 @@ nav: true
 nav_order: 3
 ---
 
-## "Standard Model Precision Physics" *(09/2023)*
-- Maria Laach autumn school for high-energy physics, Maria Laach, Germany.
-- <a href='https://www.maria-laach.tp.nt.uni-siegen.de/downloads/files/2023/Huss-2023.pdf'><i class="fa-solid fa-file"></i> notes</a>, <a href='https://github.com/aykhuss/Lectures-MariaLaach-SMPrec'><i class="fa-solid fa-code-branch"></i> repository</a>
+### "Standard Model Precision Physics" *(09/2023)*
+> Maria Laach autumn school for high-energy physics, Maria Laach, Germany.
+- <a href='https://www.maria-laach.tp.nt.uni-siegen.de/'><i class="fa-solid fa-link"></i> link</a>&nbsp;<a href='https://www.maria-laach.tp.nt.uni-siegen.de/downloads/files/2023/Huss-2023.pdf'><i class="fa-solid fa-file"></i> notes</a>&nbsp;<a href='https://github.com/aykhuss/Lectures-MariaLaach-SMPrec'><i class="fa-solid fa-code-branch"></i> repository</a>
+
+### "Radiative Corrections and Renormalization" *(09/2017, 2018, 2022)*
+> Maria Laach autumn school for high-energy physics, Maria Laach, Germany.
+- <a href='https://www.maria-laach.tp.nt.uni-siegen.de/'><i class="fa-solid fa-link"></i> link</a>&nbsp;<a href='https://github.com/aykhuss/Tutorials-MariaLaach-RadCor'><i class="fa-solid fa-code-branch"></i> repository</a>
+
+### "Jet Physics" *(07/2021)*
+> MITP School 2021: The Amplitude Games, Mainz, Germany.
+- <a href='https://indico.mitp.uni-mainz.de/event/204/'><i class="fa-solid fa-link"></i> link</a>&nbsp;<a href='https://indico.mitp.uni-mainz.de/event/204/sessions/865/'><i class="fa-solid fa-file"></i> notes</a>&nbsp;<a href='https://www.youtube.com/watch?v=Stykhl3mza4&list=PLejkXpUan6WEqle5MQttuFK2_TWzJSUNw'><i class="fa-solid fa-video"></i> recording</a>
+
 
 ## course title 2
 more information
