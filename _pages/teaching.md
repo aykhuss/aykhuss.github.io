@@ -42,7 +42,7 @@ M.Sc. in Particles, Strings and Cosmology, University of Durham, UK.
 - <a href='https://alhuss.web.cern.ch/teaching/qcd/'><i class="fa-solid fa-file"></i> notes</a>
 <hr>
 
-## Outreach
+## outreach
 
 <hr>
 ##### "Von Lagrangedichten zu Feynman Diagrammen" *(’22, ’23)*
