@@ -7,6 +7,11 @@ nav: true
 nav_order: 2
 ---
 
+##### **"Bayesian Estimates for TH Uncertainties"** *(02/2024)*
+*Discussion of theoretical systematics in LHC precision measurements*, CERN, Geneva, Switzerland. 
+&nbsp; 
+<a href='https://indico.cern.ch/event/1368033/'><i class="fa-solid fa-link"></i></a> 
+
 ##### **"Precision Phenomenology at the LHC"** *(12/2023)*
 *QCD Meets Gravity 2023*, CERN, Geneva, Switzerland. 
 &nbsp; 

@@ -26,7 +26,7 @@ social: false  # includes social icons at the bottom of the page
 
 I'm a theoretical physicist studying elementary particles and the fundamental interactions of Nature that govern them.
 My main research resides in the intersection between theory and experiment, known as particle *phenomenology*.  It revolves around making *very precise* predictions from theory and confronting it with the data collected at collider experiments, such as the Large Hadron Collider (<a href='https://home.web.cern.ch/resources/faqs/facts-and-figures-about-lhc'>LHC</a>) at CERN. 
-This way, we hope to uncover even subtle hits on what are the elementary constituents and Nature's laws at these highest energies and smallest distances.
+This way, we hope to uncover even subtle hints on what are the elementary constituents and Nature's laws at these highest energies and smallest distances.
 I'm particularly interested in applications of modern computational methods and analytical techniques to aid our understanding of these questions.
 
 I'm currently a LD Research Staff member of the <a href='https://theory.cern/'>theory department</a> at CERN in Geneva, Switzerland.

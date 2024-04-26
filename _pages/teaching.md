@@ -46,7 +46,7 @@ M.Sc. in Particles, Strings and Cosmology, University of Durham, UK.
 
 <hr>
 ##### "Von Lagrangedichten zu Feynman Diagrammen" *(’22, ’23)*
-MITP School 2021: The Amplitude Games, Mainz, Germany.
+Forschung trifft Schule: CERN Summer School, CERN, Switzerland.
 - <i class="fa-solid fa-link"></i> link: <a href='https://indico.cern.ch/event/1233143/timetable/'>1</a>, <a href='https://indico.cern.ch/event/1131641/timetable/'>2</a> 
   &nbsp;<i class="fa-solid fa-code-commit" style="opacity: 0.25;"> </i> &nbsp;
   <a href='https://indico.cern.ch/event/1131641/contributions/4801762/'><i class="fa-solid fa-file"></i> notes</a>
