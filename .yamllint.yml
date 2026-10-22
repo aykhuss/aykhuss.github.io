@@ -1,0 +1,10 @@
+extends: default
+
+# Prettier owns line wrapping in this site and in upstream al-folio.
+# YAML comments and pinned CDN URLs intentionally exceed 80 columns.
+rules:
+  line-length: disable
+  document-start: disable
+  truthy:
+    allowed-values: ["true", "false", "on"]
+    check-keys: false
