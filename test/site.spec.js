@@ -31,16 +31,32 @@ test("main pages render with preserved navigation, blue styling and no missing l
   expect(scriptErrors).toEqual([]);
 });
 
-test("CV preserves month-precision dates, clickable email and hidden postal address", async ({ page }) => {
+test("CV preserves date precision and contact presentation without publishing the PDF", async ({ page, request }) => {
   await page.goto("/cv/", { waitUntil: "domcontentloaded" });
   const article = page.locator("article");
   const formatDate = (value) => (value ? value.slice(0, 7).replace("-", ".") : "Present");
-  const dates = [...resume.work, ...resume.education].map((entry) => `${formatDate(entry.startDate)} - ${formatDate(entry.endDate)}`);
+  const dates = [...resume.work, ...resume.education]
+    .filter((entry) => entry.startDate || entry.date)
+    .map((entry) => (entry.startDate ? `${formatDate(entry.startDate)} - ${formatDate(entry.endDate)}` : formatDate(entry.date)));
   await expect(article.locator(".date-column .badge")).toHaveText(dates);
   const email = article.getByRole("link", { name: resume.basics.email, exact: true });
   await expect(email).toBeVisible();
   await expect(email).toHaveAttribute("href", `mailto:${resume.basics.email}`);
   await expect(article).not.toContainText(resume.basics.location.address);
+  for (const entry of resume.work) {
+    await expect(article).toContainText(entry.position);
+    await expect(article).toContainText(entry.name);
+  }
+  for (const entry of resume.education) {
+    await expect(article).toContainText(entry.studyType);
+    await expect(article).toContainText(entry.institution);
+  }
+  for (const entry of resume.languages) {
+    await expect(article).toContainText(entry.language);
+    await expect(article).toContainText(entry.fluency);
+  }
+  await expect(page.locator('.post-header .fa-file-pdf, a[href$="/assets/pdf/CV.pdf"]')).toHaveCount(0);
+  expect((await request.get("/assets/pdf/CV.pdf")).status()).toBe(404);
 });
 
 test("profile image loads and mobile navigation works", async ({ page, isMobile }) => {

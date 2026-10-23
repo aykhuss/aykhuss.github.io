@@ -21,7 +21,7 @@ overrides:
     upstream_path: templates/cv/render.liquid
     upstream_sha256: eaff444ab8d7407008e422ecc4be3c56c586fe2397951d54dbfb6aef7fc2eac0
     local_sha256: 1306ea117820303b0502ce1991848372c758ece3d21a73c0370fb61d2f35d41a
-    acknowledged_at: '2026-10-22'
+    acknowledged_at: '2026-10-23'
   _sass/_themes.scss:
     owner: al_folio_core
     gem_version: 1.0.15

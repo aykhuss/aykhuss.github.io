@@ -17,13 +17,17 @@
   },
   "work": [
     {
+      "name": "University of Würzburg, Germany",
+      "position": "Professor",
+      "date": "2026-12",
+      "summary": "Institute for Theoretical Physics and Astrophysics"
+    },
+    {
       "name": "CERN Theory department, Geneva, Switzerland",
       "position": "Research Staff",
       "url": "https://theory.cern/",
       "startDate": "2020-10-01",
-      "endDate": "",
-      "summary": "",
-      "highlights": []
+      "endDate": "2026-11"
     },
     {
       "name": "IPPP, University of Durham, Durham, UK",
@@ -31,58 +35,58 @@
       "url": "https://www.ippp.dur.ac.uk/",
       "startDate": "2020-01-01",
       "endDate": "2020-09-30",
-      "summary": "",
-      "highlights": []
+      "summary": "Institute for Particle Physics Phenomenology, Department of Physics"
     },
     {
       "name": "CERN Theory department, Geneva, Switzerland",
       "position": "Research Fellow",
       "url": "https://theory.cern/",
       "startDate": "2017-10-01",
-      "endDate": "2020-09-30",
-      "summary": "",
-      "highlights": []
+      "endDate": "2020-09-30"
     },
     {
       "name": "ETH Zurich, Zurich, Switzerland",
       "position": "Post-doctoral Researcher",
       "url": "https://itp.phys.ethz.ch/",
       "startDate": "2014-10-01",
-      "endDate": "2017-09-30",
-      "summary": "",
-      "highlights": []
+      "endDate": "2017-09-30"
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "Albert-Ludwigs-Universität Freiburg, Freiburg, Germany",
+      "institution": "University of Freiburg, Germany",
+      "url": "https://www.physik.uni-freiburg.de/",
+      "area": "Theoretical physics",
+      "studyType": "PhD with distinction",
+      "date": "2015-02",
+      "highlights": ["Supervisor: Prof. Dr. Stefan Dittmaier"]
+    },
+    {
+      "institution": "University of Freiburg, Germany",
       "url": "https://www.physik.uni-freiburg.de/",
       "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "2010-12-01",
-      "endDate": "2014-09-30",
-      "score": "summa cum laude",
-      "courses": []
+      "studyType": "Diploma with honours (Dipl.-Phys.)",
+      "date": "2010-10",
+      "highlights": ["Gustav-Mie Prize (October 2011), awarded for exceptional graduation theses in physics."]
+    },
+    {
+      "institution": "Imperial College London, UK",
+      "area": "Physics",
+      "studyType": "Imperial College International Diploma (Erasmus)",
+      "date": "2007-06"
     }
   ],
+  "sections": [],
   "awards": [],
   "certificates": [],
   "publications": [],
   "skills": [],
   "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Japanese",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
+    { "language": "German", "fluency": "Native speaker" },
+    { "language": "Japanese", "fluency": "Native speaker" },
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "French", "fluency": "Basic" }
   ],
   "interests": [],
   "references": [],

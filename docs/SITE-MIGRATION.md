@@ -64,6 +64,17 @@ presentation, navigation, local assets and absence of horizontal overflow. The p
 checks pass; the four legacy Bootstrap advisories described above remain non-blocking.
 Review all four tracked overrides (three CV includes and the stylesheet) after future gem updates.
 
+## Subsequent CV content edits
+
+The biography, teaching page and `assets/json/resume.json` have since been updated from the October 2026
+CV and manually edited by the owner. The web CV retains appointments, education and languages, without
+additional service, skills or collaboration sections. Standalone `date` values display only that date;
+no date ranges are invented for degree completion or the December 2026 appointment.
+
+The personal PDF CV is not published. `assets/pdf/CV.pdf` is ignored by Git and excluded from Jekyll's
+output, even if kept locally as a reference. Leave the CV page's `cv_pdf` unset. Content and browser tests
+check that the PDF is neither linked nor served, as well as the current CV data and presentation.
+
 ## Verification and local use
 
 Prerequisites: Ruby/Bundler (lockfile uses Bundler 4.0.6), Node, ImageMagick, Python with `nbconvert`.

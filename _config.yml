@@ -216,6 +216,7 @@ include: ["_pages"]
 exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
+  - assets/pdf/CV.pdf # Personal reference only; never publish the PDF CV.
   - bin/
   - CLAUDE.md
   - Dockerfile

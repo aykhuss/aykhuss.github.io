@@ -1,6 +1,6 @@
 {
   "index.html": {
-    "text_sha256": "b965d1ec36971c5e2ad289f13de84f9d99cdf00b6ed8c81eaf456c77a30d5b1f",
+    "text_sha256": "715869260511e12b761b79c92d13914fc209889acc8604b9a1e1b7fc11dc58ae",
     "links": ["https://home.web.cern.ch/resources/faqs/facts-and-figures-about-lhc", "https://theory.cern/", "mailto:alexander.huss@cern.ch"]
   },
   "talks/index.html": {
@@ -25,11 +25,15 @@
     ]
   },
   "teaching/index.html": {
-    "text_sha256": "c3cbb6a14b0859b8700397fe4867551864cff75025481a99fcac2af0102277db",
+    "text_sha256": "a8659ad67c280d8b92e67ecf3b4d0cef5d6a4f8bc6f0bf63c95d4770c4bc84f4",
     "links": [
+      "https://alhuss.web.cern.ch/fts/",
       "https://alhuss.web.cern.ch/teaching/qcd/",
       "https://cds.cern.ch/record/2865910",
       "https://cds.cern.ch/record/2866102",
+      "https://cds.cern.ch/record/2938668",
+      "https://cds.cern.ch/record/2938790",
+      "https://github.com/aykhuss/Lectures-CERN-QCD",
       "https://github.com/aykhuss/Lectures-MariaLaach-SMPrec",
       "https://github.com/aykhuss/Lectures-SSL-MkPred",
       "https://github.com/aykhuss/Tutorials-MariaLaach-RadCor",
@@ -37,6 +41,12 @@
       "https://indico.cern.ch/event/1131641/timetable/",
       "https://indico.cern.ch/event/1233143/timetable/",
       "https://indico.cern.ch/event/1254879/timetable/",
+      "https://indico.cern.ch/event/1347523/timetable/",
+      "https://indico.cern.ch/event/1359124/",
+      "https://indico.cern.ch/event/1467690/",
+      "https://indico.cern.ch/event/1489664/",
+      "https://indico.cern.ch/event/1508891/timetable/",
+      "https://indico.cern.ch/event/1616585/",
       "https://indico.mitp.uni-mainz.de/event/204/",
       "https://indico.mitp.uni-mainz.de/event/204/sessions/865/",
       "https://www.maria-laach.tp.nt.uni-siegen.de/",

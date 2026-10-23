@@ -78,17 +78,35 @@ cv_values = [resume.fetch("basics").fetch("name"), resume.fetch("basics").fetch(
 cv_values += resume.fetch("work").flat_map { |entry| entry.values_at("name", "position") }
 cv_values += resume.fetch("education").flat_map { |entry| entry.values_at("institution", "studyType", "area") }
 cv_values += resume.fetch("languages").flat_map { |entry| entry.values_at("language", "fluency") }
+cv_values += resume.fetch("skills").flat_map { |entry| [entry.fetch("name"), *entry.fetch("keywords")] }
+cv_values += resume.fetch("projects").flat_map { |entry| entry.values_at("name", "summary") }
+resume.fetch("sections").each do |section|
+  cv_values << section.fetch("title")
+  cv_values += section.fetch("entries").flat_map { |entry| entry.values_at("position", "name") }
+end
 cv_values.compact.each do |value|
   failures << "Missing CV content: #{value}" unless cv_text.include?(value)
 end
 
 # Preserve date precision and contact presentation, not just the source values.
 cv_article = documents.fetch("cv/index.html").at_css("article")
-(resume.fetch("work") + resume.fetch("education")).each do |entry|
+dated_entries = resume.fetch("work") + resume.fetch("education") + resume.fetch("sections").flat_map { |section| section.fetch("entries") }
+expected_dates = dated_entries.filter_map do |entry|
   format_date = ->(value) { value.to_s.empty? ? "Present" : value[0, 7].tr("-", ".") }
-  dates = "#{format_date.call(entry.fetch('startDate'))} - #{format_date.call(entry.fetch('endDate'))}"
-  failures << "Missing month-precision CV dates: #{dates}" unless cv_text.include?(dates)
+  if entry["startDate"]
+    "#{format_date.call(entry.fetch('startDate'))} - #{format_date.call(entry.fetch('endDate'))}"
+  elsif entry["date"]
+    format_date.call(entry.fetch("date"))
+  end
 end
+actual_dates = cv_article.css(".date-column .badge").map { |badge| normalize.call(badge.text) }
+failures << "CV date precision or point-in-time dates changed: #{actual_dates.inspect}" unless actual_dates == expected_dates
+# The PDF may exist locally as a reference, but must not be published or linked.
+failures << "Private CV PDF must not be published" if destination.join("assets/pdf/CV.pdf").exist?
+documents.each do |route, document|
+  failures << "Unexpected CV PDF link: #{route}" if document.at_css('a[href$="/assets/pdf/CV.pdf"]')
+end
+failures << "Unexpected CV PDF download button" if documents.fetch("cv/index.html").at_css(".post-header .fa-file-pdf")
 email = resume.fetch("basics").fetch("email")
 email_link = cv_article.css('a[href]').find { |link| link["href"] == "mailto:#{email}" }
 failures << "CV email must be clickable" unless email_link && normalize.call(email_link.text) == email
