@@ -1,0 +1,52 @@
+{
+  "index.html": {
+    "text_sha256": "b965d1ec36971c5e2ad289f13de84f9d99cdf00b6ed8c81eaf456c77a30d5b1f",
+    "links": ["https://home.web.cern.ch/resources/faqs/facts-and-figures-about-lhc", "https://theory.cern/", "mailto:alexander.huss@cern.ch"]
+  },
+  "talks/index.html": {
+    "text_sha256": "be422bd0468b8657520242693f1ed7c23ded200144328831d51cd6d42bf6f712",
+    "links": [
+      "http://blois.in2p3.fr/2023/index.html",
+      "https://cds.cern.ch/record/2883975",
+      "https://github.com/aykhuss/Lectures-MariaLaach-SMPrec/blob/main/org/toy-nlo/README.pdf",
+      "https://indico.cern.ch/event/1030068/",
+      "https://indico.cern.ch/event/1030068/contributions/4408795/attachments/2330670/3973214/GMT20211019-133209_Recording_2560x1440.mp4",
+      "https://indico.cern.ch/event/1202436/",
+      "https://indico.cern.ch/event/1312061",
+      "https://indico.cern.ch/event/1312061/contributions/5651962/attachments/2751852/4796637/AlexanderYoheiHuss.mp4",
+      "https://indico.cern.ch/event/1317494/",
+      "https://indico.cern.ch/event/1368033/",
+      "https://indico.cern.ch/event/688643/contributions/3410256/",
+      "https://indico.cern.ch/event/913339/contributions/3843883/",
+      "https://indico.desy.de/event/28197/",
+      "https://indico.mpp.mpg.de/event/8599/",
+      "https://moriond.in2p3.fr/QCD/2023/MorQCD23Prog.html",
+      "https://www.munich-iapbp.de/hp-lhc-physics2022/schedule"
+    ]
+  },
+  "teaching/index.html": {
+    "text_sha256": "c3cbb6a14b0859b8700397fe4867551864cff75025481a99fcac2af0102277db",
+    "links": [
+      "https://alhuss.web.cern.ch/teaching/qcd/",
+      "https://cds.cern.ch/record/2865910",
+      "https://cds.cern.ch/record/2866102",
+      "https://github.com/aykhuss/Lectures-MariaLaach-SMPrec",
+      "https://github.com/aykhuss/Lectures-SSL-MkPred",
+      "https://github.com/aykhuss/Tutorials-MariaLaach-RadCor",
+      "https://indico.cern.ch/event/1131641/contributions/4801762/",
+      "https://indico.cern.ch/event/1131641/timetable/",
+      "https://indico.cern.ch/event/1233143/timetable/",
+      "https://indico.cern.ch/event/1254879/timetable/",
+      "https://indico.mitp.uni-mainz.de/event/204/",
+      "https://indico.mitp.uni-mainz.de/event/204/sessions/865/",
+      "https://www.maria-laach.tp.nt.uni-siegen.de/",
+      "https://www.maria-laach.tp.nt.uni-siegen.de/downloads/files/2023/Huss-2023.pdf",
+      "https://www.pro-physik.de/physik-journal/oktober-2022",
+      "https://www.youtube.com/watch?v=Stykhl3mza4&list=PLejkXpUan6WEqle5MQttuFK2_TWzJSUNw"
+    ]
+  },
+  "publications/index.html": {
+    "count": 103,
+    "titles_sha256": "12f78537eb3317665b17f0fd6af30590a3e010ea1396b160b4fd1b0a50048c00"
+  }
+}

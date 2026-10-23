@@ -1,16 +1,3 @@
-<figure>
-
-  <audio
-    src="{% if include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"
-    {% if include.class %}class="{{ include.class }}"{% endif %}
-    {% if include.alt %}alt="{{ include.alt }}"{% endif %}
-    {% if include.title %}title="{{ include.title }}"{% endif %}
-    {% if include.autoplay %}autoplay{% endif %}
-    {% if include.controls %}controls{% endif %}
-    {% if include.loop %}loop{% endif %}
-    {% if include.muted %}muted{% endif %}
-  />
-
-  {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
-
-</figure>
+{% comment %} Compatibility alias for existing posts. Rendering stays gem-owned. New content should include audio.liquid directly. {% endcomment %} {%
+include audio.liquid path=include.path class=include.class alt=include.alt title=include.title caption=include.caption autoplay=include.autoplay
+controls=include.controls loop=include.loop muted=include.muted cache_bust=include.cache_bust %}
