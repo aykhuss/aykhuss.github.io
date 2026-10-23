@@ -4,7 +4,7 @@
     "links": ["https://home.web.cern.ch/resources/faqs/facts-and-figures-about-lhc", "https://theory.cern/", "mailto:alexander.huss@cern.ch"]
   },
   "talks/index.html": {
-    "text_sha256": "be422bd0468b8657520242693f1ed7c23ded200144328831d51cd6d42bf6f712",
+    "text_sha256": "38e92e834ee06f8d8e5f4ad7400f04a58d0457dcaf943c4f0b8754309a82abe4",
     "links": [
       "http://blois.in2p3.fr/2023/index.html",
       "https://cds.cern.ch/record/2883975",
@@ -56,7 +56,7 @@
     ]
   },
   "publications/index.html": {
-    "count": 103,
-    "titles_sha256": "12f78537eb3317665b17f0fd6af30590a3e010ea1396b160b4fd1b0a50048c00"
+    "count": 121,
+    "titles_sha256": "b31de53afbe8f2f6c4582dd999480106f8490254fc8adcfed76a6ba58ebfa966"
   }
 }
